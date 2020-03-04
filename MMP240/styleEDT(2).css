@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    font-family: 'Alegreya Sans';
+}
+
+
+
+.container{  
+    max-width: 1140px;
+    padding-top:16px;
+    margin:32px;
+
+}
+
+
+/*Header and Nav Styles */ 
+
+header{
+ width:60%;
+    float:left;
+}
+
+header img{
+    max-width:90%;
+}
+
+h2{
+    font-size:1.2em;
+}
+
+nav{
+    float:right;
+    width:30%;
+}
+
+.menu-button{
+    text-align:right;
+}
+
+.main-menu ul{
+    /*display:none;*/
+    list-style-type: none;
+    padding:0.5em;
+    border: solid 1px #333;
+
+}
+main-menu li{
+    height:36px;
+    padding-top:6px;
+    margin-bottom: 6px;
+    border-bottom: solid 1px#333;
+    padding-left:1em;
+}
+
+.main-menu li{
+    display:inline;
+    margin-right:2em;
+}
+
+
+/* ******* */
+
+
+a{
+    color:#186898;
+}
+
+
+
+a:hover{
+    color:#bc477b;
+}
+
+a:active{
+    color:orange;
+}
+
+.fluid-image{
+    width:100%;
+}
+
+p{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+
+h3{
+    margin-top:1em;
+}
+
+@media (min-width: 768px){
+    header{
+        width:30%;
+    }
+    
+    / * ***** Desktop styles **** */
+    
+    nav{width:60%;
+    }
+    .menu-button{
+        display: none;
+    }
+    .main-menu ul{display:block;
+    border: none;
+    position:static;
+    width:100%;
+    text-align: right;}
+}
